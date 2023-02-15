@@ -55,7 +55,7 @@ if __name__ == '__main__':
                         default=os.path.join(os.path.dirname(__file__), 'test_default_fonts_images'))
     parser.add_argument('--output_json_dir_path', type=str,
                         default='~/.vaik_text_recognition_tflite_experiment/test_default_fonts_images_inference')
-    parser.add_argument('--softmax_threshold', type=float, default=0.05)
+    parser.add_argument('--softmax_threshold', type=float, default=0.00)
     args = parser.parse_args()
 
     args.input_tflite_model_path = os.path.expanduser(args.input_tflite_model_path)
