@@ -42,7 +42,7 @@ def main(input_tflite_model_path, input_classes_json_path, input_image_dir_path,
         output['image_path'] = image_path
         with open(output_json_path, 'w') as f:
             json.dump(output, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
-    print(f'{np.average(time_list)}[images/sec]')
+    print(f'{1/np.average(time_list)}[images/sec]')
 
 
 if __name__ == '__main__':

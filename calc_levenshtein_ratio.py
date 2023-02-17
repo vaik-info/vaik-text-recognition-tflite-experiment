@@ -8,8 +8,8 @@ import Levenshtein
 def calc_levenshtein_ratio(json_dict_list):
     ratio_list = []
     for json_dict in json_dict_list:
-        ratio = Levenshtein.ratio(json_dict['answer'], json_dict['text'][0])
-        print(f'ratio:{ratio}, answer:{json_dict["answer"]}, predict:{json_dict["text"][0]}')
+        ratio = Levenshtein.ratio(json_dict['answer'], json_dict['text'])
+        print(f'ratio:{ratio}, answer:{json_dict["answer"]}, predict:{json_dict["text"]}')
         ratio_list.append(ratio)
     print(f'Average Ratio: {sum(ratio_list)/len(ratio_list)}')
 
