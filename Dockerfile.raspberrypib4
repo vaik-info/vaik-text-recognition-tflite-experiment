@@ -16,4 +16,4 @@ RUN pip3 install https://github.com/google-coral/pycoral/releases/download/relea
 RUN apt-get install libedgetpu1-std -y
 
 RUN pip3 install --no-deps tqdm==4.64.1
-RUN pip3 install --no-deps git+https://github.com/vaik-info/vaik-classification-tflite-inference.git@7fd529eb541a84473d6b336e7d9e8adb2c8e0e3e
+RUN pip3 install --no-deps git+https://github.com/vaik-info/vaik-text-recognition-tflite-inference.git@20db661e883a3aa2a5ba1828c664ab957dc48014
