@@ -1,3 +1,3 @@
 Pillow>=9.4.0
 python-Levenshtein>=0.20.9
-vaik-text-recognition-tflite-inference @ git+https://github.com/vaik-info/vaik-text-recognition-tflite-inference.git@20db661e883a3aa2a5ba1828c664ab957dc48014
+vaik-text-recognition-tflite-inference @ git+https://github.com/vaik-info/vaik-text-recognition-tflite-inference.git@fa773c69a900cf12bf288b8354b5dc8674384ebf
